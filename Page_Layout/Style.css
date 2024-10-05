@@ -1,0 +1,107 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 48px;
+    position: sticky;
+    top: 0;
+    background:color(white red green blue);
+  }
+  main{
+    margin: 16px 48px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .home-link
+  {
+    margin: 16px;
+    display: flex;
+  }
+ .home-link > img
+ {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+ }
+ 
+ .nav_links > #btn
+ {
+    background-color: #fa7436;
+    border-radius: 24px;
+    border: none;
+    color: white;
+     }
+     .welcome-area
+     {
+        width: 50px;
+    
+     }
+     
+     .journey
+     {
+        color: #fa7436;;
+     }
+     #dd
+     {
+        background:transparent;
+       color: #fa7436;
+       border: 2px solid #df5114;
+     }
+     .welcome-area
+     {
+        flex-grow: 1;
+     }
+     .welcome-area1
+     {
+       
+        flex-grow: 1;
+     }
+     .welcome-area > h1
+     {
+        width: 30;
+     }
+     .home {
+        display: flex;
+        justify-content: center;
+      }
+      section {
+        margin: 0 48px;
+      }
+
+      .filter-sec {
+        display: flex;
+        background-color: white;
+        border-radius: 16px;
+        padding: 16px;
+        margin: 16px;
+        gap: 48px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .highlight {
+        color: var(--primary-color);
+      }
+
+      .filter-item {
+        flex-shrink: 0;
+        min-width: 136px;
+      }
+
+      .filter-item > h3 {
+        display: inline;
+      }
+      #btn3
+      {
+        
+    background-color: #fa7436;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50;
+        
+      }
